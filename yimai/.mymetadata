@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="yimai"
+  id="myeclipse.1466147788570"
+  context-root="/yimai"
+  j2ee-spec="5.0"
+  archive="yimai.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

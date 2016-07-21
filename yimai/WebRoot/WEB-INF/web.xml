@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewsDelete</servlet-name>
+    <servlet-class>com.yimai.servlet.NewsDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewsAddServlet</servlet-name>
+    <servlet-class>com.yimai.servlet.NewsAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewsAddServelet</servlet-name>
+    <servlet-class>com.yimai.servlet.NewsAddServelet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewsDeleteServlet</servlet-name>
+    <servlet-class>com.yimai.servlet.NewsDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewsUpdateservlet</servlet-name>
+    <servlet-class>com.yimai.servlet.NewsUpdateservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommentDeleteServlet</servlet-name>
+    <servlet-class>com.yimai.servlet.CommentDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommentReplyServlet</servlet-name>
+    <servlet-class>com.yimai.servlet.CommentReplyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommentAddServlet</servlet-name>
+    <servlet-class>com.yimai.servlet.CommentAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderAddServlet</servlet-name>
+    <servlet-class>com.yimai.servlet.OrderAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderDeleteServlet</servlet-name>
+    <servlet-class>com.yimai.servlet.OrderDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewsSelectServlet</servlet-name>
+    <servlet-class>com.yimai.servlet.NewsSelectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommentServlet</servlet-name>
+    <servlet-class>com.yimai.servlet.CommentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductAddServlet</servlet-name>
+    <servlet-class>com.yimai.servlet.ProductAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductDeleteServlet</servlet-name>
+    <servlet-class>com.yimai.servlet.ProductDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProuductUpdateServlet</servlet-name>
+    <servlet-class>com.yimai.servlet.ProuductUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShoppingUpdateServlet</servlet-name>
+    <servlet-class>com.yimai.servlet.ShoppingUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShoppingDeleteServlet</servlet-name>
+    <servlet-class>com.yimai.servlet.ShoppingDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShoppingAddServlet</servlet-name>
+    <servlet-class>com.yimai.servlet.ShoppingAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <servlet-class>com.yimai.servlet.UserLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.yimai.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserLogoutServlet</servlet-name>
+    <servlet-class>com.yimai.servlet.UserLogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserAddServlet</servlet-name>
+    <servlet-class>com.yimai.servlet.UserAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserModifyServlet</servlet-name>
+    <servlet-class>com.yimai.servlet.UserModifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserDeleteServlet</servlet-name>
+    <servlet-class>com.yimai.servlet.UserDeleteServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>NewsDelete</servlet-name>
+    <url-pattern>/NewsDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewsAddServlet</servlet-name>
+    <url-pattern>/NewsAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewsAddServelet</servlet-name>
+    <url-pattern>/NewsAddServelet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewsDeleteServlet</servlet-name>
+    <url-pattern>/NewsDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewsUpdateservlet</servlet-name>
+    <url-pattern>/NewsUpdateservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommentDeleteServlet</servlet-name>
+    <url-pattern>/CommentDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommentReplyServlet</servlet-name>
+    <url-pattern>/CommentReplyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommentAddServlet</servlet-name>
+    <url-pattern>/CommentAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderAddServlet</servlet-name>
+    <url-pattern>/OrderAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderDeleteServlet</servlet-name>
+    <url-pattern>/OrderDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewsSelectServlet</servlet-name>
+    <url-pattern>/NewsSelectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommentServlet</servlet-name>
+    <url-pattern>/CommentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductAddServlet</servlet-name>
+    <url-pattern>/ProductAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductDeleteServlet</servlet-name>
+    <url-pattern>/ProductDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProuductUpdateServlet</servlet-name>
+    <url-pattern>/ProuductUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShoppingUpdateServlet</servlet-name>
+    <url-pattern>/ShoppingUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShoppingDeleteServlet</servlet-name>
+    <url-pattern>/ShoppingDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShoppingAddServlet</servlet-name>
+    <url-pattern>/ShoppingAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <url-pattern>/UserLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserLogoutServlet</servlet-name>
+    <url-pattern>/UserLogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserAddServlet</servlet-name>
+    <url-pattern>/UserAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserModifyServlet</servlet-name>
+    <url-pattern>/UserModifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserDeleteServlet</servlet-name>
+    <url-pattern>/UserDeleteServlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
